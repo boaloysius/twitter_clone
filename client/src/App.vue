@@ -2,17 +2,12 @@
   <div>
     <div class="bg-red-900">Hi there, welcome to rails app</div>
     <Button>Button</Button>
+    <span>{{ message }}</span>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import { Button } from "@/components/ui/button";
-
-export default defineComponent({
-  name: "App",
-  components: {
-    Button,
-  },
-});
+import { ref } from "vue";
+const message = ref("Hello, Vue 3 with Composition API!");
 </script>
