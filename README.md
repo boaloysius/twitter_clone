@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Follow the following tuitorial for backend: 
+https://www.youtube.com/watch?v=XxuPlSW4t6M&list=PLCawOXF4xaJLb9HwPWiizGBNupJszY6bR&index=1
