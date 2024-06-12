@@ -4,3 +4,7 @@
 require_relative "config/application"
 
 Rails.application.load_tasks
+
+
+# TODO
+# Run this on load rake js:routes:typescript
